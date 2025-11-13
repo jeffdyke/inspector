@@ -161,6 +161,7 @@ export class InspectorOAuthClientProvider implements OAuthClientProvider {
       client_name: "MCP Inspector",
       client_uri: "https://github.com/modelcontextprotocol/inspector",
       scope: this.scope ?? "",
+      contacts: []
     };
   }
 
